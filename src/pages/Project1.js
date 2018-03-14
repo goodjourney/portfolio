@@ -4,7 +4,7 @@ import SocialCloud from '../assets/social-cloud.png'
 
 const Projects = () => (
   <div
-    className="project"
+    className='project'
     style={{
       margin: '0 auto',
       maxWidth: 960,
@@ -18,11 +18,11 @@ const Projects = () => (
           minWidth: 100,
         }}
         src={SocialCloud}
-        alt="the best dev"
+        alt='the best dev'
       />
     </Link>
-    <div class="content">
-      <div class="inner">
+    <div class='content'>
+      <div class='inner'>
         <h2>Social Cloud</h2>
         <p>
           This web application (and Chrome Extension) visualizes live Twitter
@@ -34,30 +34,30 @@ const Projects = () => (
           React. D3 + react-cloud. Express + Node. Twitter Trends API.
           PostgreSQL. HTML. CSS. Javasctipt.
         </p>
-        <ul class="actions">
+        <ul class='actions'>
           <li>
             <a
-              href="https://social-cloud-trends.firebaseapp.com/"
-              target="_blank"
-              class="button"
+              href='https://social-cloud-trends.firebaseapp.com/'
+              target='_blank'
+              class='button'
             >
               Demo
             </a>
           </li>
           <li>
             <a
-              href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en"
-              target="_blank"
-              class="button"
+              href='https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en'
+              target='_blank'
+              class='button'
             >
               Chrome Extension
             </a>
           </li>
           <li>
             <a
-              href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md"
-              target="_blank"
-              class="button"
+              href='https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md'
+              target='_blank'
+              class='button'
             >
               Code
             </a>

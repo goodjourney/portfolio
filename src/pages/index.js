@@ -12,30 +12,30 @@ import Footer from './Footer.js'
 
 const IndexPage = () => (
   <div>
-    <section id="intro" className="wrapper style1 fullscreen fade-up">
-      <div className="inner">
+    <section id='intro' className='wrapper style1 fullscreen fade-up'>
+      <div className='inner'>
         <h1>DAN BEERMAN</h1>
         <p>
           Developer // Front End Engineer
-          <a href="https://www.linkedin.com/in/daniel-beerman/" />.
+          <a href='https://www.linkedin.com/in/daniel-beerman/' />.
           <br /> I'm also an adventurer, community builder, and tasty beverage
           drinker.
         </p>
-        <ul className="actions">
+        <ul className='actions'>
           <li>
-            <a href="#one" className="button scrolly">
+            <a href='#three' className='button scrolly'>
               Get in touch!
             </a>
           </li>
           <li>
-            <a href="#one" className="button scrolly">
+            <a href='#one' className='button scrolly'>
               Check out my work!
             </a>
           </li>
         </ul>
       </div>
     </section>
-    <Project1 />
+    <Project1 id='one' />
     <Project2 />
     <Project3 />
     <Project4 />

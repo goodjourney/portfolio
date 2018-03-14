@@ -20,14 +20,14 @@ const Projects = () => (
         alt='the best dev'
       />
     </Link>
-    <div class="content">
-      <div class="inner">
+    <div class='content'>
+      <div class='inner'>
         <h2>Joanna Hoge - Fine Artist</h2>
         <p>Built out a custom Wordpress Theme, integrated plugins, analytics, security, and added some neat image gallery features.</p>
         <p>Wordpress CMS. PHP. Javascript. CSS. HTML.</p>
-        <ul class="actions">
+        <ul class='actions'>
           <li>
-            <a href="http://www.joannahoge.com/" class="button">Live Site</a>
+            <a href='http://www.joannahoge.com/' class='button'>Live Site</a>
           </li>
         </ul>
       </div>

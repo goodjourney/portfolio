@@ -4,7 +4,7 @@ import MapIt from '../assets/mapit.png'
 
 const Projects = () => (
   <div
-    className="project"
+    className='project'
     style={{
       margin: '0 auto',
       maxWidth: 960,
@@ -18,11 +18,11 @@ const Projects = () => (
           minWidth: 100,
         }}
         src={MapIt}
-        alt="the best dev"
+        alt='the best dev'
       />
     </Link>
-    <div class="content">
-      <div class="inner">
+    <div class='content'>
+      <div class='inner'>
         <h2>MapIt</h2>
         <p>
           Ever struggle to get your team to show up to the right place? Not know
@@ -32,14 +32,14 @@ const Projects = () => (
         <p>
           Express + Node. Leaflet + Mapbox. PostgreSQL. HTML. CSS. Javasctipt.
         </p>
-        <ul class="actions">
+        <ul class='actions'>
           <li>
-            <a href="http://p2-web-app.firebaseapp.com/" class="button">
+            <a href='http://p2-web-app.firebaseapp.com/' class='button'>
               Demo
             </a>
           </li>
           <li>
-            <a href="" class="button">
+            <a href='' class='button'>
               Code
             </a>
           </li>

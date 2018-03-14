@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const Contact = () => (
   <div className='inner'>
-    <h2>Get in touch</h2>
+    <h2 id='three'>Get in touch</h2>
     <p>Look at all the ways you can connect!</p>
     <div className='split style1'>
         <form method='post' action='#'>

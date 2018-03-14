@@ -5,7 +5,7 @@ const Nav = () => (
   <div>
     <ul className='header-nav-links'>
       <li>
-        <a href="#intro"></a>
+        <a href="#top"></a>
       </li>
       <li>
         <a href="#one">PROJECTS</a>
