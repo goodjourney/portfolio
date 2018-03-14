@@ -1,10 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Nav from 
 
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'blue',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,9 +24,10 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Dan Beerman
         </Link>
       </h1>
+        <Nav />
     </div>
   </div>
 )

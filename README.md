@@ -1,26 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# Dan's portfolio site and writing repo
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+As I finish new projects I need a place to keep them, I'm excited to add much more content here. 
 
-## Install
+More posts to come!
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
+## Lisence
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+MIT
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-npm run develop
-```
+## Site Details
 
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- Built on React using Gatsby and Netlify:
+  * [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+  * [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
