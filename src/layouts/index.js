@@ -11,7 +11,10 @@ const TemplateWrapper = ({ children }) => (
       title="Dan Beerman - Developer / Front End Engineer"
       meta={[
         { name: 'description', content: 'Dans Portfolio Site' },
-        { name: 'keywords', content: 'porfolio, developer, engineer, software, coder' },
+        {
+          name: 'keywords',
+          content: 'porfolio, developer, engineer, software, coder',
+        },
       ]}
     />
     <Header />
@@ -21,6 +24,7 @@ const TemplateWrapper = ({ children }) => (
         maxWidth: 960,
         padding: '0px 1.0875rem 1.45rem',
         paddingTop: 0,
+        backgroundxs: '#cfdbd5',
       }}
     >
       {children()}

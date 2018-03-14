@@ -15,7 +15,6 @@ footer,
 header,
 main,
 menu,
-nav,
 section,
 summary {
   display: block;
@@ -621,4 +620,20 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+.header-content {
+  display: flex;
+  flex-direction: row-wrap;
+  justify-content: space-between;
+}
+.header-nav-links{
+  display: flex;
+  flex-direction: row-wrap;
+}
+.header-nav-links,
+li a {
+    color: white; 
+    text-decoration: none; 
+    list-style-type: none;
+    padding-left: 1em;
 }

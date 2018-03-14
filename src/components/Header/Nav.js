@@ -1,22 +1,25 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-export const Nav = () => {
-  return (<ul>
-    <li>
-      <a href="#intro">Welcome</a>
-    </li>
-    <li>
-      <a href="#one">Projects</a>
-    </li>
-    <li>
-      <a href="#two">About</a>
-    </li>
-    <li>
-      <a href="#three">Contact</a>
-    </li>
-    <li>
-      <a href="#">Writing</a>
-    </li>
-  </ul>);
-}
+const Nav = () => (
+  <div>
+    <ul className='header-nav-links'>
+      <li>
+        <a href="#intro"></a>
+      </li>
+      <li>
+        <a href="#one">PROJECTS</a>
+      </li>
+      <li>
+        <a href="#two">ABOUT</a>
+      </li>
+      <li>
+        <a href="#three">CONTACT</a>
+      </li>
+      <li>
+        <a href="#">WRITING</a>
+      </li>
+  </ul>
+  </div>
+)
+export default Nav
