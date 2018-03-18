@@ -1,46 +1,47 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Logo from '../../assets/dbLogo.png'
+import Scrollchor from 'react-scrollchor'
 
 const Header = () => (
   <div>
-    <ul className='NavBar'>
-      <Link>
-        <img
-          style={{
-            maxHeight: 40,
-            borderRadius: 10,
-          }}
-          className='nav-name'
-          src={Logo}
-          alt='the best dev'
-        />
-      </Link>
-      <li className='nav-item'>
-        <a href='#top' className='nav-link' />
-      </li>
-      <li className='nav-item'>
-        <a href='#PROJECTS' className='nav-link'>
-          PROJECTS
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a href='#ABOUT' className='nav-link'>
-          ABOUT
-        </a>
-      </li>
-      <li className='nav-item'>
-        <a href='#CONTACT' className='nav-link'>
+    <ul className="NavBar">
+      <img
+        style={{
+          maxHeight: 100,
+          borderRadius: 10,
+        }}
+        className="nav-name"
+        src={Logo}
+        alt="the best dev"
+      />
+      <li className="nav-item">
+        <Scrollchor to="#contact" className="nav-link">
           CONTACT
-        </a>
+        </Scrollchor>
       </li>
-      <li className='nav-item'>
-        <a href='#WRITING' className='nav-link'>
+      <li className="nav-item">
+        <Scrollchor to="#about" className="nav-link">
+          ABOUT
+        </Scrollchor>
+      </li>
+      <li className="nav-item">
+        <Scrollchor to="#projects" className="nav-link">
+          PROJECTS
+        </Scrollchor>
+      </li>
+      <li className="nav-item">
+        <Scrollchor to="#top" className="nav-link">
+          WELCOME
+        </Scrollchor>
+      </li>
+      {/* <li className="nav-item">
+        <a href="#WRITING" className="nav-link">
           WRITING
         </a>
-      </li>
+      </li> */}
     </ul>
   </div>
 )
 
- export default Header
+export default Header

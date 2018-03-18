@@ -8,7 +8,9 @@
     "gatsby-cli": "1.1.45",
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-scrollable-anchor": "0.6.1",
+    "react-scrollchor": "4.2.1"
   },
   "keywords": [
     "gatsby"

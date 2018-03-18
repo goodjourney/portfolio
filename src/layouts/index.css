@@ -419,8 +419,8 @@ button:hover {
   padding: 0;
   overflow: hidden;
   text-align: center;
-  border: 1px solid #e7e7e7;
-  background-color: #f1f1f1;
+  border-bottom: 2px solid #000000;
+  background-color: #272830;
   z-index: 500;
 }
 
@@ -439,6 +439,7 @@ button:hover {
   font-weight: 100;
   font-size: 36px;
   display: block;
+  position: fixed;
   margin-left: 60px;
   color: black;
   text-align: center;
@@ -449,7 +450,7 @@ button:hover {
 
 .nav-link {
   display: block;
-  color: #666;
+  color: #ffffff;
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
