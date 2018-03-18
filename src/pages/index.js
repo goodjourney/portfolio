@@ -7,63 +7,75 @@ import About from './About.js'
 
 
 const IndexPage = () => (
-  <div className="App">
-    <section id="intro" className="wrapper">
-      <div className="welcome section">
-        <h1 className="welcome-intro">DAN BEERMAN</h1>
-        <p>
-          Developer // Front End Engineer
-          <a href="https://www.linkedin.com/in/daniel-beerman/" />.
-          <br /> I'm also an adventurer, community builder, and tasty beverage
-          drinker.
-        </p>
-        <ul className="actions">
-          <li>
-            <a href="#CONTACT" className="button scrolly">
-              Get in touch!
-            </a>
-          </li>
-          <li>
-            <a href="#PROJECTS" className="button scrolly">
-              Check out my work!
-            </a>
-          </li>
+  <div className='App'>
+    <section id='intro' className='wrapper'>
+      <div className='Welcome section'>
+        <div className='welcome-intro'>
+          <h1>
+            <strong>DAN BEERMAN</strong>
+            <br /> Developer // Front End Engineer
+          </h1>
+          <p>
+            I'm also an adventurer, community builder, and tasty beverage
+            drinker.
+          </p>
           <a
-            href="https://linkedin.com/in/daniel-beerman"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://linkedin.com/in/daniel-beerman'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            <i className="fa fa-linkedin-square i-hov" aria-hidden="true" />
+            <i className='fa fa-linkedin-square i-hov' aria-hidden='true' />
           </a>{' '}
           <a
-            href="https://github.com/lebeerman"
-            target="_blank"
-            rel="noopener noreferrer"
+            href='https://github.com/lebeerman'
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            <i className="fa fa-github i-hov" aria-hidden="true" />
+            <i className='fa fa-github i-hov' aria-hidden='true' />
           </a>{' '}
-          <br />
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <button className="button resume-button">
-              Resume <i className="fa fa-file-pdf-o" aria-hidden="true" />
-            </button>
+          <a
+            href='https://twitter.com/toBDaniel'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-twitter i-hov' aria-hidden='true' />
+          </a>{' '}
+          <a
+            href='https://www.instagram.com/dbeerman/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <i className='fa fa-instagram i-hov' aria-hidden='true' />
           </a>
-        </ul>
+          <a
+            href='mailto:hi@danbeerman.com?Subject=Hello%20there!'
+            target='_top'
+          >
+            <i className='fa fa-envelope i-hov' aria-hidden='true' />
+          </a>{' '}
+          <br/>
+          <button href='#CONTACT' className='button'>
+            Get in touch!
+          </button>
+          <button href='#PROJECTS' className='button'>
+            Check out my work!
+          </button>
+        </div>
       </div>
     </section>
-    <h2 className="heading" id="projects">
+    <h2 className='heading' id='#PROJECTS'>
       PROJECTS
     </h2>
     <Projects />
-    <h2 className="heading" id="about">
+    <h2 className='heading' id='#ABOUT'>
       ABOUT
     </h2>
     <About />
-    <h2 className="heading" id="blog">
+    {/* <h2 className='heading' id='blog'>
       WRITING
-    </h2>
-    <h2 className="heading" id="footer">
-      LIKE WHAT YOU SEE?
+    </h2> */}
+    <h2 className='heading' id='#FOOTER'>
+      GET CONNECTED!
     </h2>
     <Footer />
   </div>
