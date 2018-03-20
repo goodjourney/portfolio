@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Daniel Beerman <hi@danbeerman.com>",
   "dependencies": {
+    "@fortawesome/fontawesome": "1.1.4",
     "gatsby": "^1.9.223",
     "gatsby-cli": "1.1.45",
     "gatsby-link": "^1.6.38",
