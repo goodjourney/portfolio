@@ -4,11 +4,12 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/Header'
 import './index.css'
+import './font-awesome.css'
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title='Dan Beerman - Developer / Front End Engineer'
+      title='Dan Beerman - Developer // Software Engineer'
       meta={[
         { name: 'description', content: 'Dans Portfolio Site' },
         {

@@ -15,7 +15,7 @@ const Header = () => (
         src={Logo}
         alt="the best dev"
       />
-      <li className="nav-item">
+      <li className="nav-item nav-last">
         <Scrollchor to="#contact" className="nav-link">
           CONTACT
         </Scrollchor>

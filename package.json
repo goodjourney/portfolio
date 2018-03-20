@@ -9,8 +9,10 @@
     "gatsby-link": "^1.6.38",
     "gatsby-plugin-react-helmet": "^2.0.6",
     "react-helmet": "^5.2.0",
+    "react-responsive-modal": "2.0.1",
     "react-scrollable-anchor": "0.6.1",
-    "react-scrollchor": "4.2.1"
+    "react-scrollchor": "4.2.1",
+    "react-spotify-player": "1.0.4"
   },
   "keywords": [
     "gatsby"

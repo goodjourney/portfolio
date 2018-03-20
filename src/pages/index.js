@@ -11,54 +11,52 @@ const IndexPage = () => (
     <section id="top" className="wrapper">
       <div className="Welcome section">
         <div className="welcome-intro">
-          <h1>
-            <strong>DAN BEERMAN</strong>
-            <br /> Developer // Front End Engineer
+          <h1 className="about-intro">
+            <strong>DAN BEERMAN </strong>
           </h1>
-          <p>
-            I'm also an adventurer, community builder, and make a great old
-            fashioned
-          </p>
-          <a
-            href="https://linkedin.com/in/daniel-beerman"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-linkedin-square i-hov" aria-hidden="true" />
-          </a>{' '}
-          <a
-            href="https://github.com/lebeerman"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-github i-hov" aria-hidden="true" />
-          </a>{' '}
-          <a
-            href="https://twitter.com/toBDaniel"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-twitter i-hov" aria-hidden="true" />
-          </a>{' '}
-          <a
-            href="https://www.instagram.com/dbeerman/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-instagram i-hov" aria-hidden="true" />
-          </a>
-          <a
-            href="mailto:hi@danbeerman.com?Subject=Hello%20there!"
-            target="_top"
-          >
-            <i className="fa fa-envelope i-hov" aria-hidden="true" />
-          </a>{' '}
-          <br />
+          <div>
+            <h1>Developer // Software Engineer</h1>
+            <h3 className="welcome-intro">
+              I'm also an adventurer, community builder, & make a tasty old
+              fashioned
+            </h3>
+            <a
+              href="https://linkedin.com/in/daniel-beerman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin i-hov" aria-hidden="true" />
+            </a>{' '}
+            <a
+              href="https://github.com/lebeerman"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github i-hov" aria-hidden="true" />
+            </a>{' '}
+            <a
+              href="https://twitter.com/toBDaniel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter i-hov" aria-hidden="true" />
+            </a>{' '}
+            <a
+              href="https://www.instagram.com/dbeerman/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram i-hov" aria-hidden="true" />
+            </a>{' '}
+            <a
+              href="mailto:hi@danbeerman.com?Subject=Hello%20there!"
+              target="_top"
+            >
+              <i className="fas fa-envelope i-hov" aria-hidden="true" />
+            </a>{' '}
+          </div>
           <Scrollchor to="#contact">
             <button className="button">Get in touch!</button>
-          </Scrollchor>
-          <Scrollchor to="#projects">
-            <button className="button">Recent Work</button>
           </Scrollchor>
         </div>
       </div>
