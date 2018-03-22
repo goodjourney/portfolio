@@ -26,7 +26,7 @@ class About extends Component {
         </div>
         <div className="about-content">
           <img style={{ width: 400, height: 400 }} src={dbAbout} className="profile" />
-          <a href="https://drive.google.com/file/d/0B8HEbUk6mTGqcnEwTE5RTDhRLWVMVDNDbERPWFhKU0I2Ungw/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1IWKRxPM59F_J0O5_BgvrkEcP8h4UoI_D/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="button i-hov">
               Resume <i className="far fa-file-pdf" aria-hidden="true" />
             </button>
