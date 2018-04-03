@@ -3,6 +3,10 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/Header'
 import './index.css'
+import ReactGA from 'react-ga'
+ReactGA.initialize('UA-29961590-1')
+ReactGA.pageview(window.location.pathname + window.location.search)
+
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -12,7 +16,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'Dans Portfolio Site' },
         {
           name: 'keywords',
-          content: 'porfolio, developer, engineer, software, coder',
+          content: 'porfolio, developer, engineer, software, code',
         },
       ]}
     />

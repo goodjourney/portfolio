@@ -6,23 +6,34 @@ import SmartTrak from '../assets/smart-trak.png'
 import MapIt from '../assets/mapit.png'
 import Jo from '../assets/joweb.jpg'
 import CoUS from '../assets/cous.jpg'
-import Modal from "react-responsive-modal";
 
 class Projects extends React.Component {
   state = {
     open: false
   };
 
-  onOpenModal = () => {
-    this.setState({ open: true });
-  };
-
-  onCloseModal = () => {
-    this.setState({ open: false });
-  };
-
   render() {
     return <div className="Projects section flex-container">
+        <div className="item">
+          <img src={CoUS} className="thumb" />
+          <div className="overlay">
+            <div className="text">
+              <h3>ClimaStatus</h3>
+              <p>
+                <strong>IoT Sensing: Temp., Pressure, Humidity</strong>
+                
+              </p>
+              <p>
+                Marketing. Design. Identity. Copy. Photography. Editorial.
+              </p>
+              <p>
+                <a href="https://www.captainsofus.com/" target="_blank" rel="noopener noreferrer">
+                  Live Site <i className="fa fa-github" aria-hidden="true" />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="item">
           <img src={SocialCloud} className="thumb" />
           {/* <button className="btn btn-action" onClick={()=>this.onOpenModal}>
