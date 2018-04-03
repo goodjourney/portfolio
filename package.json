@@ -11,6 +11,7 @@
     "gatsby-plugin-react-helmet": "^2.0.6",
     "react-fontawesome": "1.6.1",
     "react-helmet": "^5.2.0",
+    "react-icons": "2.2.7",
     "react-responsive-modal": "2.0.1",
     "react-scrollable-anchor": "0.6.1",
     "react-scrollchor": "4.2.1",

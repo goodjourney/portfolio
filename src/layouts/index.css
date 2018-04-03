@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,400,700|Montserrat|Raleway|Roboto');
 /* RESET + GATBY BOILERPLATE */
 
 html {
@@ -224,14 +225,22 @@ textarea {
 
 /* GENERAL PAGE STYLING */
 
+
+
 .App {
   background-image: url('./shattered-island.gif');
   text-align: center;
 }
 
 .header h1 {
+  font-family: 'Montserrat',
+  sans-serif;
   font-size: 50px;
   line-height: 30px;
+}
+
+.header h1 strong {
+  font-weight: 300;
 }
 
 h1 {
@@ -341,7 +350,9 @@ p {
 }
 
 .heading {
+  font-family: 'Oswald';
   color: white;
+  font-weight: 200;
 }
 
 /* WELCOME CSS */
@@ -374,7 +385,7 @@ p {
 }
 
 .Welcome .i-hov:hover {
-  color: #00f2e7;
+  color: #00f2e6d0;
   display: inline-block;
 }
 
@@ -407,6 +418,8 @@ button:hover {
 }
 
 .welcome-intro strong {
+  font-family: 'Raleway',
+  sans-serif;
   font-weight: 900;
 }
 
@@ -480,10 +493,10 @@ button:hover {
 }
 
 .about-intro {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
+  font-family: 'Montseurat', sans-serif;
+  font-weight: 150;
   color: white;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .about-intro strong {
@@ -500,7 +513,6 @@ button:hover {
   min-width: 300px;
   flex: 1;
 }
-
 
 .about-item a {
   color: white;
@@ -530,6 +542,7 @@ button:hover {
   width: auto;
   border-radius: 50%;
 }
+
 /* FOOTER */
 
 .Footer {
@@ -545,12 +558,15 @@ button:hover {
   display: grid;
   grid-template-columns: 15% 40% 30% 15%;
 }
+
 .footer-1{
   grid-column: 2 / span 1;
 }
+
 .footer-2 {
   grid-column: 3 / span 1;
 }
+
 .Footer div {
   text-align: center;
 }

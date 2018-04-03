@@ -1,15 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-
-import fontawesome from '@fortawesome/fontawesome'
 import Header from '../components/Header'
 import './index.css'
-// import './font-awesome.css'
-
-fontawesome.config = {
-  familyPrefix: 'fa',
-}
 
 const TemplateWrapper = ({ children }) => (
   <div>

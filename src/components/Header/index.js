@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Logo from '../../assets/dbLogo.png'
 import Scrollchor from 'react-scrollchor'
 
+
 const Header = () => (
   <div>
     <ul className="NavBar">

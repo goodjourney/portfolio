@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-
+import FaIconPack from 'react-icons/lib/fa' // ICONS
 import SocialCloud from '../assets/social-cloud.png'
 import SmartTrak from '../assets/smart-trak.png'
 import MapIt from '../assets/mapit.png'

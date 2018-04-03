@@ -4,7 +4,7 @@ import Scrollchor from 'react-scrollchor'
 import Projects from './Projects.js'
 import Footer from './Footer.js'
 import About from './About.js'
-
+import * as FaIconPack from 'react-icons/lib/fa'
 
 const IndexPage = () => (
   <div className="App">
@@ -25,34 +25,54 @@ const IndexPage = () => (
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-linkedin i-hov" aria-hidden="true" />
+              <FaIconPack.FaLinkedinSquare
+                size={30}
+                className="fas i-hov"
+                aria-hidden="true"
+              />
             </a>{' '}
             <a
               href="https://github.com/lebeerman"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-github i-hov" aria-hidden="true" />
+              <FaIconPack.FaGithubSquare
+                size={30}
+                className="fas i-hov"
+                aria-hidden="true"
+              />
             </a>{' '}
             <a
               href="https://twitter.com/toBDaniel"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-twitter i-hov" aria-hidden="true" />
+              <FaIconPack.FaTwitterSquare
+                size={30}
+                className="fas i-hov"
+                aria-hidden="true"
+              />
             </a>{' '}
             <a
               href="https://www.instagram.com/dbeerman/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fab fa-instagram i-hov" aria-hidden="true" />
+              <FaIconPack.FaInstagram
+                size={30}
+                className="fas i-hov"
+                aria-hidden="true"
+              />
             </a>{' '}
             <a
               href="mailto:hi@danbeerman.com?Subject=Hello%20there!"
               target="_top"
             >
-              <i className="fas fa-envelope i-hov" aria-hidden="true" />
+              <FaIconPack.FaPaperPlane
+                size={30}
+                className="fas i-hov"
+                aria-hidden="true"
+              />
             </a>{' '}
           </div>
           <Scrollchor to="#contact">
