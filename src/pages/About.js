@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import dbAbout from '../assets/dbAbout.gif'
+import * as FaIconPack from 'react-icons/lib/fa'
 
 class About extends Component {
   render() {
@@ -28,7 +29,7 @@ class About extends Component {
           <img style={{ width: 400, height: 400 }} src={dbAbout} className="profile" />
           <a href="https://drive.google.com/file/d/1IWKRxPM59F_J0O5_BgvrkEcP8h4UoI_D/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="button i-hov">
-              Resume <i className="far fa-file-pdf" aria-hidden="true" />
+              <FaIconPack.FaFilePdfO size={30} aria-hidden="true" /> Resume
             </button>
           </a>
         </div>
