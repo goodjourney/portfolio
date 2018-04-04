@@ -16,7 +16,8 @@
     "react-responsive-modal": "2.0.1",
     "react-scrollable-anchor": "0.6.1",
     "react-scrollchor": "4.2.1",
-    "react-spotify-player": "1.0.4"
+    "react-spotify-player": "1.0.4",
+    "window-or-global": "1.0.1"
   },
   "keywords": [
     "gatsby"

@@ -5,7 +5,7 @@ import Header from '../components/Header'
 import './index.css'
 import ReactGA from 'react-ga'
 ReactGA.initialize('UA-29961590-1')
-ReactGA.pageview(window.location.pathname + window.location.search)
+// ReactGA.pageview(window.location.pathname + window.location.search)
 
 
 const TemplateWrapper = ({ children }) => (
