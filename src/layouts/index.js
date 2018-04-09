@@ -11,7 +11,7 @@ ReactGA.initialize('UA-29961590-1')
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title='Dan Beerman - Developer // Front End Engineer'
+      title='DBeerman - Developer // Front End Engineer'
       meta={[
         { name: 'description', content: 'Dans Portfolio Site' },
         {

@@ -1,13 +1,20 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import * as FaIconPack from 'react-icons/lib/fa'
-import SocialCloud from '../assets/social-cloud.png'
-import SmartTrak from '../assets/smart-trak.png'
-import MapIt from '../assets/mapit.png'
-import Jo from '../assets/joweb.jpg'
-import CoUS from '../assets/cous.jpg'
-import Clima from '../assets/climastatus.gif'
+import FSsocial from '../assets/full-social-cloud.gif'
+import FSsmart from '../assets/full-smart-trak.gif'
+import FSmapit from '../assets/full-map-it.gif'
+import FSjohog from '../assets/full-jo-fine-art.gif'
+import FScous from '../assets/full-coUS.gif'
+import FSclima from '../assets/full-climastatus.gif'
 import Modal from 'react-responsive-modal'
+
+import Lclima from "../assets/logo-clima.png";
+import Lcous from "../assets/logo-cous.png";
+import Ljohog from "../assets/logo-JH.png";
+import Lsmart from "../assets/logo-smart.png";
+import Lmapit from "../assets/logo-mapit.png";
+import Lscloud from "../assets/logo-scloud.png";
 
 class Projects extends React.Component {
   state = {
@@ -69,31 +76,45 @@ class Projects extends React.Component {
 
   render() {
     const { modal1, modal2, modal3, modal4, modal5, modal6 } = this.state
-    return (
-      <div className="Projects section flex-container">
+    return <div className="Projects section flex-container">
         <div className="item">
-          <img src={Clima} className="thumb" onClick={this.onOpenModal1} />
-
+          <img src={FSclima} className="thumb" onClick={this.onOpenModal1} />
+          <div className="overlay">
+            <img src={Lclima} rel="ClimaStatus" height={200} />
+          </div>
           <Modal open={modal1} onClose={this.onCloseModal1} little>
             <div className="text">
-              <h3>ClimaStatus</h3>
+              <h1>ClimaStatus</h1>
+              <strong>
+                Personal IoT Sensor: Temp, Pressure, and Humidity
+              </strong>
               <p>
-                <strong>IoT Sensor: Temp., Pressure, Humidity</strong>
-                Dashboard App. AWS Server. Registered Personal Weather Station.
+                Project includes: a responsive Dashboard App, AWS Elastic Cloud Compute Server, and
+                Registered Personal Weather Station.
               </p>
               <p>
-                React. Netlify. Chart.js. AWS EC2. Express + Node. Raspberry Pi.
-                MongoDB. Python. HTML. CSS. Javasctipt.
+                <strong>Technologies: </strong> AWS EC2. React. Netlify. Chart.js.Express + Node. Raspberry Pi. MongoDB. Python. HTML. CSS. Javasctipt.
+              </p>
+              <p>
+                Watch the presentation: <a href="https://youtu.be/OQbGKI5RDhY" target="_blank" rel="noopener noreferrer">
+                  HERE <FaIconPack.FaYoutube size={25} />
+                </a>
               </p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://climastatus.netlify.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
+                    </a>
+                  </button>
+                  <button className="button i-hov">
+                    <a href="https://github.com/lebeerman/ClimaStatus" target="_blank" rel="noopener noreferrer">
+                      Code <FaIconPack.FaGithub size={15} />
+                    </a>
+                  </button>
+                  <button className="button i-hov">
+                    <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KCODENVE579" target="_blank" rel="noopener noreferrer">
+                      Weather Station <FaIconPack.FaSunO size={15} />
                     </a>
                   </button>
                 </li>
@@ -103,93 +124,71 @@ class Projects extends React.Component {
         </div>
 
         <div className="item">
-          <img
-            src={SocialCloud}
-            className="thumb"
-            onClick={this.onOpenModal2}
-          />
-
+          <img src={FSsocial} className="thumb" onClick={this.onOpenModal2} />
+          <div className="overlay">
+            <img src={Lscloud} rel="ClimaStatus" height={200} />
+          </div>
           <Modal open={modal2} onClose={this.onCloseModal2} little>
             <div className="text">
-              <h3>Social Cloud</h3>
+              <h1>Social Cloud</h1>
+              <strong>Visualize live Twitter trends!</strong>
               <p>
-                <strong>Visualize live Twitter trends. </strong>
-                Web application + Chrome Extension allows the user to view
-                trends geographic location.
+                Web application + Chrome Extension allows users to view
+                trends by geographic location.
               </p>
               <p>
-                React. D3 + react-cloud. Express + Node. Twitter Trends API.
-                PostgreSQL. HTML. CSS. Javasctipt.
+                <strong>Technologies: </strong>React. D3 + react-cloud. Express + Node. Twitter Trends API. PostgreSQL. HTML. CSS. Javascript.
               </p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://social-cloud-trends.firebaseapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://social-cloud-trends.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button>
                 </li>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en" target="_blank" rel="noopener noreferrer">
                       Chrome Extension <FaIconPack.FaChrome size={15} />
                     </a>
                   </button>
                 </li>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
                   </button>
                 </li>
               </ul>
             </div>
-            onClick={this.onOpenSecondModal} />
           </Modal>
         </div>
 
         <div className="item">
-          <img src={SmartTrak} className="thumb" onClick={this.onOpenModal3} />
-
+          <img src={FSsmart} className="thumb" onClick={this.onOpenModal3} />
+          <div className="overlay">
+            <img src={Lsmart} rel="Smart-Trak" height={200} />
+          </div>
           <Modal open={modal3} onClose={this.onCloseModal3} little>
             <div className="text">
-              <h3>SMART Trak</h3>
-              <p>Create an account and meet your goals.</p>
+              <h1>SMART Trak</h1>
+              <strong>Set and meet your S.M.A.R.T. Goals</strong>
               <p>
-                OAuth 2.0 Okta API. React. Express + Node. Knex. PostgreSQL.
+                <strong>Technologies: </strong>OAuth 2.0 Okta API. React. Express + Node. Knex. PostgreSQL.
               </p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://smart-trak.firebaseapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://smart-trak.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button>
                 </li>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://github.com/lebeerman/smart-track/blob/master/README.md"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://github.com/lebeerman/smart-track/blob/master/README.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
                   </button>
@@ -200,34 +199,28 @@ class Projects extends React.Component {
         </div>
 
         <div className="item">
-          <img src={MapIt} className="thumb" onClick={this.onOpenModal4} />
-
+          <img src={FSmapit} className="thumb" onClick={this.onOpenModal4} />
+          <div className="overlay">
+            <img src={Lmapit} rel="MapIt App" height={200} />
+          </div>
           <Modal open={modal4} onClose={this.onCloseModal4} little>
             <div className="text">
-              <h3>MapIt</h3>
+              <h1>MapIt</h1>
+              <strong>Map your places. Coordinate your team. </strong>
               <p>
-                <strong>Map your places. Coordinate your team. </strong>
+                <strong>Technologies: </strong>Express + Node. Leaflet + Mapbox. PostgreSQL. Vanilla JS.
               </p>
-              <p>Express + Node. Leaflet + Mapbox. PostgreSQL. JS.</p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="http://p2-web-app.firebaseapp.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://p2-web-app.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button>
                 </li>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://github.com/mthorry/restaurant-tracker-demo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://github.com/lebeerman/Map-It" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
                   </button>
@@ -238,23 +231,22 @@ class Projects extends React.Component {
         </div>
 
         <div className="item">
-          <img src={Jo} className="thumb" onClick={this.onOpenModal5} />
-
+          <img src={FSjohog} className="thumb" onClick={this.onOpenModal5} />
+          <div className="overlay">
+            <img src={Ljohog} rel="Jo Hoge" height={200} />
+          </div>
           <Modal open={modal5} onClose={this.onCloseModal5} little>
             <div className="text">
-              <h3>Joanna Hoge - Fine Artist</h3>
+              <h1>Joanna Hoge - Fine Artist</h1>
+              <strong>Portfolio Site utilizing Wordpress CMS. </strong>
+              <p>I turned the completed site over to the artist to maintain. Her site is responsive, secure, includes analytics and easy to maintain.</p>
               <p>
-                <strong>Portfolio Site with Wordpress CMS. </strong>
+                <strong>Technologies: </strong>Wordpress CMS. Javascript. CSS. HTML.
               </p>
-              <p>Wordpress CMS. Javascript. CSS. HTML.</p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="http://www.joannahoge.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="http://www.joannahoge.com/" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button>
@@ -265,25 +257,24 @@ class Projects extends React.Component {
         </div>
 
         <div className="item">
-          <img src={CoUS} className="thumb" onClick={this.onOpenModal6} />
-
+          <img src={FScous} className="thumb" onClick={this.onOpenModal6} />
+          <div className="overlay">
+            <img src={Lcous} rel="CoUS" height={200} />
+          </div>
           <Modal open={modal6} onClose={this.onCloseModal6} little>
             <div className="text">
-              <h3>Captains of US</h3>
-              <p>
-                <strong>Personal adventure blog. </strong>
-                Document explorations in the wild. Collaborative project:
-                Jonathan Hinderliter.
+              <h1>Captains of US</h1>
+              <strong>Collaborative Adventure Blog. </strong>
+              <p>  
+                I hiked from Mexico to Canada on the PCT. This blog captures that and other adventures in the wild.
               </p>
-              <p>Marketing. Design. Identity. Copy. Photography. Editorial.</p>
+              <p>
+                <strong>Project Roles: </strong> Marketing. Design. Identity. Copy. Photography. Editorial.
+              </p>
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a
-                      href="https://www.captainsofus.com/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
+                    <a href="https://www.captainsofus.com/" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button>
@@ -293,7 +284,6 @@ class Projects extends React.Component {
           </Modal>
         </div>
       </div>
-    )
   }
 }
 
