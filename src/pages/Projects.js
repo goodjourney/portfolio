@@ -89,8 +89,9 @@ class Projects extends React.Component {
                 Personal IoT Sensor: Temp, Pressure, and Humidity
               </strong>
               <p>
-                Project includes: a responsive Dashboard App, AWS Elastic Cloud Compute Server, and
-                Registered Personal Weather Station.
+                Project includes: a responsive Dashboard App, AWS Elastic
+                Cloud Compute Server, and Registered Personal Weather
+                Station.
               </p>
               <p>
                 <strong>Technologies: </strong> AWS EC2. React. Netlify. Chart.js.Express + Node. Raspberry Pi. MongoDB. Python. HTML. CSS. Javasctipt.
@@ -106,13 +107,11 @@ class Projects extends React.Component {
                     <a href="https://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
                     </a>
-                  </button>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://github.com/lebeerman/ClimaStatus" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
-                  </button>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KCODENVE579" target="_blank" rel="noopener noreferrer">
                       Weather Station <FaIconPack.FaSunO size={15} />
                     </a>
@@ -145,17 +144,11 @@ class Projects extends React.Component {
                     <a href="https://social-cloud-trends.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
-                  </button>
-                </li>
-                <li>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en" target="_blank" rel="noopener noreferrer">
                       Chrome Extension <FaIconPack.FaChrome size={15} />
                     </a>
-                  </button>
-                </li>
-                <li>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
@@ -184,10 +177,7 @@ class Projects extends React.Component {
                     <a href="https://smart-trak.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
-                  </button>
-                </li>
-                <li>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://github.com/lebeerman/smart-track/blob/master/README.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
@@ -216,10 +206,7 @@ class Projects extends React.Component {
                     <a href="http://p2-web-app.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
                     </a>
-                  </button>
-                </li>
-                <li>
-                  <button className="button i-hov">
+                  </button> <button className="button i-hov">
                     <a href="https://github.com/lebeerman/Map-It" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
                     </a>
@@ -239,7 +226,11 @@ class Projects extends React.Component {
             <div className="text">
               <h1>Joanna Hoge - Fine Artist</h1>
               <strong>Portfolio Site utilizing Wordpress CMS. </strong>
-              <p>I turned the completed site over to the artist to maintain. Her site is responsive, secure, includes analytics and easy to maintain.</p>
+              <p>
+                I turned the completed site over to the artist to maintain.
+                Her site is responsive, secure, includes analytics and easy
+                to maintain.
+              </p>
               <p>
                 <strong>Technologies: </strong>Wordpress CMS. Javascript. CSS. HTML.
               </p>
@@ -265,8 +256,9 @@ class Projects extends React.Component {
             <div className="text">
               <h1>Captains of US</h1>
               <strong>Collaborative Adventure Blog. </strong>
-              <p>  
-                I hiked from Mexico to Canada on the PCT. This blog captures that and other adventures in the wild.
+              <p>
+                I hiked from Mexico to Canada on the PCT. This blog captures
+                that and other adventures in the wild.
               </p>
               <p>
                 <strong>Project Roles: </strong> Marketing. Design. Identity. Copy. Photography. Editorial.

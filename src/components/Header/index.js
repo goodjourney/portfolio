@@ -8,10 +8,6 @@ const Header = () => (
   <div>
     <ul className="NavBar">
       <img
-        style={{
-          maxHeight: 100,
-          borderRadius: 10,
-        }}
         className="nav-name"
         src={Logo}
         alt="the best dev"

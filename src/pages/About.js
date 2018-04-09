@@ -7,27 +7,26 @@ class About extends Component {
     return <div className="About section">
         <div className="about-content">
           <h1 className="about-intro">
-            I'm about <strong>tech + community + and making things</strong>.
+            I'm about <strong>tech + community + making things</strong>.
           </h1>
           <p className="about-item">
             <strong>I love to work with great people. </strong>
-            I've worked as a scientific writer, water quality researcher, science communications enthusiast, outdoor educator, professional hiker, bartender + server, events organizer, community manager, illustrator, developer and software engineer.
+            I've been a technical writer, water researcher, outdoor educator, backpacking/climbing 
+            guide, bartender, events organizer, community manager, artist, and now a developer + software engineer.
           </p>
           <p className="about-item">
             I spend most of my waking hours at Galvanize - Platte in Denver.<br />
           </p>
           <p className="about-item">
-            Originally, I'm from St. Louis, Missouri! (#STL) I went to the
-            University of Missouri - Columbia and earned a BS in
-            Biochemistry. I worked as a backpacking instructor during the
-            summers, fell in love with the mountains. After a stint in the
-            Biotech industry I hike the Pacific Crest Trail. Then I moved to
-            Colorado.
+            I'm from St. Louis, MO! I went to the University of Missouri and earned a BS in
+            Biochemistry. I as an outdoor educator during the summers, and fell in love with 
+            the mountains. After a stint working in Biotech I hiked the Pacific Crest Trail. 
+            Then I moved to Colorado and worked at Galvanize. Now I write code.
           </p>
         </div>
         <div className="about-content">
-          <img style={{ width: 400, height: 400 }} src={dbAbout} className="profile" />
-          <a href="https://drive.google.com/file/d/1IWKRxPM59F_J0O5_BgvrkEcP8h4UoI_D/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <img src={dbAbout} className="profile" />
+          <a href="https://drive.google.com/file/d/1NZGp8ZSRE0cu7T6nmojXCZcaA6p86BOj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className="button i-hov">
               <FaIconPack.FaFilePdfO size={30} aria-hidden="true" /> Resume
             </button>
