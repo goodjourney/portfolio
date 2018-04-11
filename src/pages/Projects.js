@@ -104,7 +104,7 @@ class Projects extends React.Component {
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a href="https://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
+                    <a href="http://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
                     </a>
                   </button> <button className="button i-hov">
