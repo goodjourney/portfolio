@@ -15,7 +15,7 @@ const IndexPage = () => (
             <strong>DAN BEERMAN </strong>
           </h1>
           <div>
-            <h1>Developer // Front End Engineer</h1>
+            <h1>Software Engineer // Full Stack Developer</h1>
             <h3 className="welcome-intro">
               I'm also an adventurer, community builder, & make a tasty old
               fashioned

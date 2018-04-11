@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import dbAbout from '../assets/dbAbout.gif'
 import * as FaIconPack from 'react-icons/lib/fa'
+import resume from '../assets/DanBeerman-Resume.pdf'
 
 class About extends Component {
   render() {
@@ -26,7 +27,7 @@ class About extends Component {
         </div>
         <div className="about-content">
           <img src={dbAbout} className="profile" />
-          <a href="https://drive.google.com/file/d/1NZGp8ZSRE0cu7T6nmojXCZcaA6p86BOj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href={resume} target="_blank" rel="noopener noreferrer">
             <button className="button i-hov">
               <FaIconPack.FaFilePdfO size={30} aria-hidden="true" /> Resume
             </button>
