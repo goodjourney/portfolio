@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import dbAbout from '../assets/dbAbout.gif'
 import * as FaIconPack from 'react-icons/lib/fa'
 import resume from '../assets/DanBeerman-Resume.pdf'
-
+import {
+  OutboundLink
+} from 'gatsby-plugin-google-analytics'
 class About extends Component {
   render() {
     return <div className="About section">

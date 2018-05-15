@@ -8,6 +8,9 @@ import FSjohog from '../assets/full-jo-fine-art.gif'
 import FScous from '../assets/full-coUS.gif'
 import FSclima from '../assets/full-climastatus.gif'
 import Modal from 'react-responsive-modal'
+import {
+  OutboundLink
+} from 'gatsby-plugin-google-analytics'
 
 import Lclima from "../assets/logo-clima.png";
 import Lcous from "../assets/logo-cous.png";

@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'gatsby-link'
 import SpotifyPlayer from 'react-spotify-player';
 import * as FaIconPack from 'react-icons/lib/fa';
- 
+import {
+   OutboundLink
+ } from 'gatsby-plugin-google-analytics'
 // size may also be a plain string using the presets 'large' or 'compact'
 const size = {
   width: '100%',

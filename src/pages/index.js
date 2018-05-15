@@ -5,6 +5,9 @@ import Projects from './Projects.js'
 import Footer from './Footer.js'
 import About from './About.js'
 import * as FaIconPack from 'react-icons/lib/fa'
+import {
+  OutboundLink
+} from 'gatsby-plugin-google-analytics'
 
 const IndexPage = () => (
   <div className="App">
@@ -20,7 +23,7 @@ const IndexPage = () => (
               I'm also an adventurer, community builder, & make a tasty old
               fashioned
             </h3>
-            <a
+            <OutboundLink
               href="https://linkedin.com/in/daniel-beerman"
               target="_blank"
               rel="noopener noreferrer"
@@ -30,8 +33,8 @@ const IndexPage = () => (
                 className="fas i-hov"
                 aria-hidden="true"
               />
-            </a>{' '}
-            <a
+            </OutboundLink>{' '}
+            <OutboundLink
               href="https://github.com/lebeerman"
               target="_blank"
               rel="noopener noreferrer"
@@ -41,8 +44,8 @@ const IndexPage = () => (
                 className="fas i-hov"
                 aria-hidden="true"
               />
-            </a>{' '}
-            <a
+            </OutboundLink>{' '}
+            <OutboundLink
               href="https://twitter.com/toBDaniel"
               target="_blank"
               rel="noopener noreferrer"
@@ -52,8 +55,8 @@ const IndexPage = () => (
                 className="fas i-hov"
                 aria-hidden="true"
               />
-            </a>{' '}
-            <a
+            </OutboundLink>{' '}
+            <OutboundLink
               href="https://www.instagram.com/dbeerman/"
               target="_blank"
               rel="noopener noreferrer"
@@ -63,8 +66,8 @@ const IndexPage = () => (
                 className="fas i-hov"
                 aria-hidden="true"
               />
-            </a>{' '}
-            <a
+            </OutboundLink>{' '}
+            <OutboundLink
               href="mailto:hi@danbeerman.com?Subject=Hello%20there!"
               target="_top"
             >
@@ -73,7 +76,7 @@ const IndexPage = () => (
                 className="fas i-hov"
                 aria-hidden="true"
               />
-            </a>{' '}
+            </OutboundLink>{' '}
           </div>
           <Scrollchor to="#contact">
             <button className="button">Get in touch!</button>
