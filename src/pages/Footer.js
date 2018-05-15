@@ -22,44 +22,44 @@ class Footer extends React.Component {
         <div className="footer-2">
           <h3>Social</h3>
           <p>
-            <a href="mailto:hi@danbeerman.com?Subject=Hello%20there!" target="_top">
+            <OutboundLink href="mailto:hi@danbeerman.com?Subject=Hello%20there!" target="_top">
               <FaIconPack.FaPaperPlane size={20} className="fas i-hov" aria-hidden="true" /> hi@danbeerman.com 
-            </a>
+            </OutboundLink>
           </p>
           <p>
-            <a href="https://www.linkedin.com/in/daniel-beerman/" target="_blank" rel="noopener noreferrer" className="footer-link">
+            <OutboundLink href="https://www.linkedin.com/in/daniel-beerman/" target="_blank" rel="noopener noreferrer" className="footer-link">
               <FaIconPack.FaLinkedinSquare size={20} className="fas i-hov" aria-hidden="true" /> Linkedin
-            </a>
+            </OutboundLink>
           </p>
           <p>
-            <a href="https://github.com/lebeerman" target="_blank" rel="noopener noreferrer">
+            <OutboundLink href="https://github.com/lebeerman" target="_blank" rel="noopener noreferrer">
               <FaIconPack.FaGithubSquare size={20} className="fas i-hov" aria-hidden="true" /> Github
-            </a>
+            </OutboundLink>
           </p>
           <p>
-            <a href="https://twitter.com/toBDaniel" target="_blank" rel="noopener noreferrer">
+            <OutboundLink href="https://twitter.com/toBDaniel" target="_blank" rel="noopener noreferrer">
               <FaIconPack.FaTwitterSquare size={20} className="fas i-hov" aria-hidden="true" /> Twitter
-            </a>
+            </OutboundLink>
           </p>
           <p>
-            <a href="https://www.instagram.com/dbeerman/" target="_blank" rel="noopener noreferrer">
+            <OutboundLink href="https://www.instagram.com/dbeerman/" target="_blank" rel="noopener noreferrer">
               <FaIconPack.FaInstagram size={20} className="fas i-hov" aria-hidden="true" /> Instagram
-            </a>
+            </OutboundLink>
           </p>
         </div>
         <div className="footer-full">
           <p>
             ©2018. <strong>Dan Beerman</strong> using <strong>
-              <a href="https://github.com/AustinGreen/gatsby-starter-netlify-cms">
+              <OutboundLink href="https://github.com/AustinGreen/gatsby-starter-netlify-cms">
                 React + Gatsby + Netlify
-              </a>
+              </OutboundLink>
             </strong>, JSX, CSS, and other cool tools.
           </p>
           <p>
             Check out the repo on <strong>
-              <a href="https://github.com/lebeerman/portfolio" target="_blank" rel="noopener noreferrer">
+              <OutboundLink href="https://github.com/lebeerman/portfolio" target="_blank" rel="noopener noreferrer">
                 github
-              </a>
+              </OutboundLink>
             </strong>.{' '}
           </p>
         </div>

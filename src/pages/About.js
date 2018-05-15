@@ -27,11 +27,15 @@ class About extends Component {
         </div>
         <div className="about-content">
           <img src={dbAbout} className="profile" />
-          <a href={resume} target="_blank" rel="noopener noreferrer">
+          < OutboundLink href = {
+            resume
+          }
+          target = "_blank"
+          rel = "noopener noreferrer" >
             <button className="button i-hov">
               <FaIconPack.FaFilePdfO size={30} aria-hidden="true" /> Resume
             </button>
-          </a>
+          </ OutboundLink >
         </div>
       </div>
   }

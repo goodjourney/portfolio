@@ -104,17 +104,17 @@ class Projects extends React.Component {
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a href="http://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="http://climastatus.netlify.com" target="_blank" rel="noopener noreferrer">
                       Live Site <FaIconPack.FaExternalLink size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://github.com/lebeerman/ClimaStatus" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://github.com/lebeerman/ClimaStatus" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KCODENVE579" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KCODENVE579" target="_blank" rel="noopener noreferrer">
                       Weather Station <FaIconPack.FaSunO size={15} />
-                    </a>
+                    </OutboundLink>
                   </button>
                 </li>
               </ul>
@@ -141,17 +141,17 @@ class Projects extends React.Component {
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a href="https://social-cloud-trends.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://social-cloud-trends.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://chrome.google.com/webstore/detail/social-cloud/oiajhngngfjeolkboffbefmegjkoannk?hl=en" target="_blank" rel="noopener noreferrer">
                       Chrome Extension <FaIconPack.FaChrome size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://github.com/SocialIssuesWordCloud/Social-Cloud-Frontend/blob/master/Readme.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
-                    </a>
+                    </OutboundLink>
                   </button>
                 </li>
               </ul>
@@ -174,13 +174,13 @@ class Projects extends React.Component {
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a href="https://smart-trak.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://smart-trak.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://github.com/lebeerman/smart-track/blob/master/README.md" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://github.com/lebeerman/smart-track/blob/master/README.md" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
-                    </a>
+                    </OutboundLink>
                   </button>
                 </li>
               </ul>
@@ -203,13 +203,13 @@ class Projects extends React.Component {
               <ul>
                 <li>
                   <button className="button i-hov">
-                    <a href="http://p2-web-app.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="http://p2-web-app.firebaseapp.com/" target="_blank" rel="noopener noreferrer">
                       Demo App <FaIconPack.FaExternalLink size={15} />
-                    </a>
+                    </OutboundLink>
                   </button> <button className="button i-hov">
-                    <a href="https://github.com/lebeerman/Map-It" target="_blank" rel="noopener noreferrer">
+                    <OutboundLink href="https://github.com/lebeerman/Map-It" target="_blank" rel="noopener noreferrer">
                       Code <FaIconPack.FaGithub size={15} />
-                    </a>
+                    </OutboundLink>
                   </button>
                 </li>
               </ul>
